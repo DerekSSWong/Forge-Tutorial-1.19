@@ -13,9 +13,9 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, TestMod.MODID);
 
     public static final RegistryObject<Item> TESTITEM =
-            ITEMS.register("testitem", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            ITEMS.register("testitem", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
     public static final RegistryObject<Item> SPHIRON =
-            ITEMS.register("sphiron", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            ITEMS.register("sphiron", () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

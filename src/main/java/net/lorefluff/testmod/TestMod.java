@@ -1,6 +1,7 @@
 package net.lorefluff.testmod;
 
 import com.mojang.logging.LogUtils;
+import net.lorefluff.testmod.block.ModBlocks;
 import net.lorefluff.testmod.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -26,6 +27,7 @@ public class TestMod
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register((modEventBus));
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

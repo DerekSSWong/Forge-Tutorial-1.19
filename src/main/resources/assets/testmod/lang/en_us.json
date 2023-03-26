@@ -1,4 +1,9 @@
 {
   "item.testmod.testitem": "TestItem",
-  "item.testmod.sphiron": "SphIron"
+  "item.testmod.sphiron": "SphIron",
+  "block.testmod.sphiron_block": "SphIron Block",
+  "block.testmod.sphiron_ore": "SphIron Ore",
+  "block.testmod.deepslate_sphiron_ore": "Deepslate Sphiron Ore",
+
+  "itemGroup.tutorialtab": "Test Tab"
 }
